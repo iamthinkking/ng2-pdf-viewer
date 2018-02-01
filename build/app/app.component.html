@@ -138,7 +138,7 @@
             </mat-slide-toggle>
         </div>
 
-        <div *ngIf="showAll && isOutlineShown">
+        <div id="outline" *ngIf="showAll && isOutlineShown">
             <ul *ngFor="let item of outline" class="outline-list">
                 <li>
                     <a (click)="navigateTo(item.dest)">
@@ -183,7 +183,7 @@
     </div>
 </main>
 <footer>
-    <div class="name">ng2-pdf-viewer</div>
+    <div class="name">ng2-PDF-viewer</div>
     <ul class="link-list">
         <li>
             <iframe src="https://ghbtns.com/github-btn.html?user=vadimdez&type=follow&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>

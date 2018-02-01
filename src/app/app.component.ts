@@ -9,8 +9,8 @@ import { PdfViewerComponent } from '../pdf-viewer/pdf-viewer.component';
 @Component({
   moduleId: module.id,
   selector: 'pdf-viewer-app',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './app/app.component.html',
+  styleUrls: ['./app/app.component.css']
 })
 
 export class AppComponent {
@@ -40,7 +40,7 @@ export class AppComponent {
   autoresize: boolean = true;
   fitToPage: boolean = false;
   outline: any[];
-  isOutlineShown: boolean = false;
+  isOutlineShown: boolean = true;
 
   @ViewChild(PdfViewerComponent) private pdfComponent: PdfViewerComponent;
 

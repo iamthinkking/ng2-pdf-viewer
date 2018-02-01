@@ -51,6 +51,7 @@ gulp.task('compile-and-inline-html', ['tslint'], () => {
     .pipe(inlineNg2Template({ base: './src' }))
     .pipe(sourcemaps.init())
     .pipe(tsProject());
+
   return tsResult.js
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest(`${ __dirname }/build`));

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <script src="build/lib/es6-shim/es6-shim.min.js"></script>
-    <script src="build/lib/zone.js/dist/zone.js"></script>
+    <script src="build/lib/zone.js/dist/zone.min.js"></script>
     <script src="build/lib/reflect-metadata/Reflect.js"></script>
     <script src="build/lib/systemjs/dist/system.src.js"></script>
     <link rel="stylesheet" href="build/lib/@angular/material/prebuilt-themes/indigo-pink.css">
@@ -130,6 +130,14 @@
     </pdf-viewer-app>
 
     <script src="build/app.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108005759-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108005759-1');
+    </script>
 </body>
 
 </html>
