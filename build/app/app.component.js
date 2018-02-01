@@ -24,7 +24,7 @@ var AppComponent = (function () {
         this.showAll = true;
         this.autoresize = true;
         this.fitToPage = false;
-        this.isOutlineShown = false;
+        this.isOutlineShown = true;
     }
     AppComponent.prototype.setCustomWorkerPath = function () {
         window.PDFJS.workerSrc = '/lib/pdfjs-dist/build/pdf.worker.js';
