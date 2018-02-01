@@ -132,13 +132,13 @@
             <button (click)="rotate(90)" mat-button type="button">Rotate right</button>
         </div>
 
-        <div id="outline" *ngIf="showAll" class="mb">
+        <div *ngIf="showAll" class="mb">
             <mat-slide-toggle [(ngModel)]="isOutlineShown">
                 Show outline
             </mat-slide-toggle>
         </div>
 
-        <div *ngIf="showAll && isOutlineShown">
+        <div id="outline" *ngIf="showAll && isOutlineShown">
             <ul *ngFor="let item of outline" class="outline-list">
                 <li>
                     <a (click)="navigateTo(item.dest)">
