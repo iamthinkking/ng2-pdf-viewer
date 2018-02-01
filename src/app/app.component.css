@@ -130,7 +130,7 @@ footer ul {
     align-items: center;
 }
 
-body > pdf-viewer-app > main > div > div:nth-child(12){
+body > pdf-viewer-app > main > div > div:nth-child(12), .outclass, #outline{
     width: 20%;
     height: 100%;
     left: 0;
@@ -140,7 +140,7 @@ body > pdf-viewer-app > main > div > div:nth-child(12){
     background: white;
 }
 
-pdf-viewer[_ngcontent-c0] {
+pdf-viewer {
     display: block;
     right: 0;
     width: 80%;
