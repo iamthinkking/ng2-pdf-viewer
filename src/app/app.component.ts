@@ -40,7 +40,7 @@ export class AppComponent {
   autoresize: boolean = true;
   fitToPage: boolean = false;
   outline: any[];
-  isOutlineShown: boolean = false;
+  isOutlineShown: boolean = true;
 
   @ViewChild(PdfViewerComponent) private pdfComponent: PdfViewerComponent;
 
