@@ -138,7 +138,7 @@
             </mat-slide-toggle>
         </div>
 
-        <div id="outline" *ngIf="showAll && isOutlineShown">
+        <div id="outline" class="outclass" *ngIf="showAll && isOutlineShown">
             <ul *ngFor="let item of outline" class="outline-list">
                 <li>
                     <a (click)="navigateTo(item.dest)">
